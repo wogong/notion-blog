@@ -32,7 +32,7 @@ export default () => (
 
         <ul>
         <li>email</li>
-        <li><code class="language-plaintext highlighter-rouge">gpg --recv-key 09DD1201</code></li>
+        <li><code>gpg --recv-key 09DD1201</code></li>
         <li><a href="http://telegram.me/wogong">telegram.me/wogong</a></li>
         </ul>
       </div>
