@@ -31,13 +31,6 @@ export async function getStaticProps({ preview }) {
       return post
     })
     .filter(Boolean)
-    .sort((a, b) => {
-        const postA = postsTable[a]
-        const postB = postsTable[b]
-        const timeA = postA.Date
-        const timeB = postB.Date
-        return Math.sign(timeB - timeA)
-      })
 
   const { users } = await getNotionUsers([...authorsToGet])
 
