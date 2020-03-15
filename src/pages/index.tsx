@@ -12,8 +12,6 @@ export default () => (
       <h1>Blog</h1>
       <h2>personal blog site for random notes.</h2>
 
-      <Features />
-
       <div className="explanation">
             <p>Find my links below.</p>
 
